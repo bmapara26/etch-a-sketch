@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-size-btn{
+    height: auto;
+    width: 300px;
+    margin: 50px;
+}
+
+.grid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 320px;
+    width: 320px;
+    /* margin: auto; */
+}
+
+.grid-container div {
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
